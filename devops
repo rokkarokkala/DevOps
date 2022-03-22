@@ -1,0 +1,60 @@
+      *******  Git  *******
+
+     1. create github account                       
+
+       *create repository 
+
+       *git clone http:repo 
+       *cd repo
+
+     2.git bash
+
+      *mkdir jagath 
+            |
+         Folder1-- file1
+                   file2
+                   file3
+         
+          Folder2-- file1
+                    file2
+                    file3  
+                  
+          Folder3-- file1
+                    file2
+                    file3 
+
+
+  Git 
+   |
+Working dir           ------Untracked files (git status)
+   |
+staging/index area    ------Changes to be commited (git add .)
+   |
+ Local repo           ------git log (git commit -m "messege")
+   |
+ git push             -----git push
+
+
+
+
+                    ******* Git commands *********
+
+1. git fetch
+
+   This Git command will get all the updates from the remote repository, including new branches.
+
+2. git checkouts
+   You can use the checkout command to switch the branch that you are currently working on.
+  
+   * git checkout <branch name>
+
+3.git init
+  This is the command you need to use if you want to start a new empty repository or to reinitialize an existing one in the project root. It will create a .git directory with its subdirectories. It should look like this:
+
+   *git init <repository name>
+
+4. git diff
+   You can use this command to see the unstaged changes on the current branch. Here’s an example of a branch with an edited feature file:
+
+5. git pull
+    Using git pull will fetch all the changes from the remote repository and merge any remote changes in the current local branch.
